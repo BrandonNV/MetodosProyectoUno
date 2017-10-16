@@ -1,0 +1,10 @@
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.csprojResolveAssemblyReference.cache
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Form1.resources
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Properties.Resources.resources
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.csproj.GenerateResource.Cache
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.csproj.CoreCompileInputs.cache
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\bin\Debug\MetodosProyectoUno.exe.config
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\bin\Debug\MetodosProyectoUno.exe
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\bin\Debug\MetodosProyectoUno.pdb
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.exe
+c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.pdb
