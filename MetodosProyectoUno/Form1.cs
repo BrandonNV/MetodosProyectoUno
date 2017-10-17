@@ -71,18 +71,55 @@ namespace MetodosProyectoUno
 
                     rows[0] = s.ToString();
                     convert = Convert.ToDouble(mu * s + i);
-                    temp = (convert / 8).ToString() + ".";
+                    temp = (convert / mo).ToString() + ".";
                     string[] operacion = temp.Split('.');
                     if (operacion[1] != "") operacion[1] = " + ." + operacion[1];
                     rows[1] = operacion[0] + "" + operacion[1];
-                    rows[2] = (convert % 8).ToString();
-                    rows[3] = ((convert % 8) / 8).ToString();
+                    rows[2] = (convert % mo).ToString();
+                    rows[3] = ((convert % mo) / mo).ToString();
                     dataGridView1.Rows.Add(rows);
                     s = (mu * s + i) % mo;
 
                 }
 
             }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 f2 = new Form2();
+            f2.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void semilla_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void veces_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
 
         }
     }

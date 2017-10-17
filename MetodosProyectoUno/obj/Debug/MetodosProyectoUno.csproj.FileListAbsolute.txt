@@ -8,3 +8,5 @@ c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\bin\
 c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\bin\Debug\MetodosProyectoUno.pdb
 c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.exe
 c:\users\brandon navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.pdb
+C:\Users\Brandon Navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Form2.resources
+C:\Users\Brandon Navarro\source\repos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Form3.resources
