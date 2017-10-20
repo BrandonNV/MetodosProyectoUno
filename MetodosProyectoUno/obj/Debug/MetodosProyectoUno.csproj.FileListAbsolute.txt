@@ -22,3 +22,17 @@ C:\Users\José Ma\Desktop\ITC\ITC_2017\Ago_Dic\Metodos\proyectoMetodos\MetodosPr
 C:\Users\José Ma\Desktop\ITC\ITC_2017\Ago_Dic\Metodos\proyectoMetodos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Properties.Resources.resources
 C:\Users\José Ma\Desktop\ITC\ITC_2017\Ago_Dic\Metodos\proyectoMetodos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.csproj.GenerateResource.Cache
 C:\Users\José Ma\Desktop\ITC\ITC_2017\Ago_Dic\Metodos\proyectoMetodos\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Form4.resources
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\bin\Debug\MetodosProyectoUno.exe.config
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\bin\Debug\MetodosProyectoUno.exe
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\bin\Debug\MetodosProyectoUno.pdb
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.csprojResolveAssemblyReference.cache
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Form1.resources
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Form2.resources
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Form3.resources
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Form4.resources
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Form5.resources
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.Properties.Resources.resources
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.csproj.GenerateResource.Cache
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.csproj.CoreCompileInputs.cache
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.exe
+C:\Users\danji\Desktop\MetodosProyectoUno\MetodosProyectoUno\obj\Debug\MetodosProyectoUno.pdb

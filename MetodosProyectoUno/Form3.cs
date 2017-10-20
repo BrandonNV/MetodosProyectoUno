@@ -78,6 +78,11 @@ namespace MetodosProyectoUno
             Form2 f2 = new Form2();
             f2.Show();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

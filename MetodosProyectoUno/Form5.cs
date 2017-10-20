@@ -10,12 +10,13 @@ using System.Windows.Forms;
 
 namespace MetodosProyectoUno
 {
-    public partial class Form4 : Form
+    public partial class Form5 : Form
     {
-        public Form4()
+        public Form5()
         {
             InitializeComponent();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(semilla.Text) || semilla.Text.Any(Char.IsLetter) ||
@@ -26,39 +27,40 @@ namespace MetodosProyectoUno
             {
                 MessageBox.Show("Favor de ingresar únicamente valores númericos");
             }
-            else {
+            else
+            {
                 dataGridView1.Rows.Clear();
                 string[] rows = new string[300];
                 int s = int.Parse(semilla.Text);
                 int mu = int.Parse(multiplicador.Text);
+                int i = int.Parse(incremento.Text);
                 int mo = int.Parse(modulo.Text);
                 int n = int.Parse(veces.Text);
                 double convert = 0;
                 string temp;
-                if ((s >= 0 && mu >= 0 && mo >= 0) && (mo > mu && mo > s))
+                int mcd = gcd(i, mo);
+
+                for (int a = 0; a < n; a++)
                 {
-                    for (int a = 0; a < n; a++)
-                    {
-                        rows[0] = s.ToString();
-                        convert = Convert.ToDouble(mu * s);
-                        temp = (convert / mo).ToString() + ".";
-                        string[] operacion = temp.Split('.');
-                        if (operacion[1] != "")
-                        {
-                            operacion[1] = " + ." + operacion[1];
-                        }
-                        rows[1] = operacion[0] + "" + operacion[1];
-                        rows[2] = (convert % mo).ToString();
-                        rows[3] = ((convert % mo) / mo).ToString();
-                        dataGridView1.Rows.Add(rows);
-                        s = (mu * s) % mo;
-                    }
+                   rows[0] = ("(" + mu + "(" + s + ") +" + i +") mod" + mo).ToString();
+                    convert = Convert.ToDouble(mu * s + i);
+                    temp = (convert / mo).ToString() + ".";
+                    string[] operacion = temp.Split('.');
+                    if (operacion[1] != "") operacion[1] = " + ." + operacion[1];
+                    rows[1] = operacion[0] + "" + operacion[1];
+                    rows[2] = (convert % mo).ToString();
+                    rows[3] = ((convert % mo) / mo).ToString();
+                    dataGridView1.Rows.Add(rows);
+                    s = (mu * s + i) % mo;
                 }
-                else {
-                    MessageBox.Show("Valores númericos NO cumplen los requisitos:" +
-                                    "\n\r -Semilla, Multiplicador, Módulo >= 0" +
-                                    "\n\r -Módulo > Multiplicador" +
-                                    "\n\r -Módulo > Semilla");
+
+                if (mcd == 1 && mo % 4 == 0 && 4 % (mu - 1) == 0)
+                {
+                    MessageBox.Show("El generador tiene periodo completo");
+                }
+                else
+                {
+                    MessageBox.Show("El generador no tiene periodo completo");
                 }
             }
         }
@@ -68,6 +70,11 @@ namespace MetodosProyectoUno
             this.Hide();
             Form2 f2 = new Form2();
             f2.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
         private void semilla_TextChanged(object sender, EventArgs e)
@@ -100,19 +107,21 @@ namespace MetodosProyectoUno
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void incremento_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void Form4_Load(object sender, EventArgs e)
+        private static int gcd(int a, int b)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            int t;
+            while (b != 0)
+            {
+                t = a;
+                a = b;
+                b = t % b;
+            }
+            return a;
         }
     }
 }
